@@ -1,0 +1,26 @@
+<h1>Assignment 3: "Understanding for..in vs for..of"</h1>
+<h3>check in console</h3>
+
+<script>
+    //for of loop is used when we want to access every value of a variable .it is a simplified metheod we dont have to initialize a loop and set any condition to run the loop.we can use for of loop only with iterable datatypes.
+
+var name = "Hanif";
+
+for (var val of name){
+    console.log(val)
+};
+
+
+// //for in loop used specially when we want to access propertyName of an object of index . Usually it is used in object.
+
+var person = {
+    name: "Hanif",
+    age:26,
+    nationality:"Pakistani"
+};
+
+for (var val in person){
+    console.log(person[val])
+}
+</script>
+<!-- third Assignment ENDs HERE! -->

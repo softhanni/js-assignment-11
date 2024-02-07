@@ -1,0 +1,18 @@
+<h1>Assignment 10: "Dynamic Element Creation and Event Handling"
+</h1>
+<h3>check in console</h3>
+
+<script>
+    var p = document.createElement("p");
+var content = document.createTextNode("Not Clicked");
+p.appendChild(content);
+document.body.appendChild(p);
+
+p.onclick = function (){
+    p.innerText ="You Clicked"
+}
+console.log(p)
+<!-- tenth Assignment ENDs HERE! -->
+
+</script>
+   
